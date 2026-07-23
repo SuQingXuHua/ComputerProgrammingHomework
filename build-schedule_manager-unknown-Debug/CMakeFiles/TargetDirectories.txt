@@ -1,0 +1,4 @@
+/home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/CMakeFiles/schedule_manager.dir
+/home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/CMakeFiles/edit_cache.dir
+/home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/CMakeFiles/rebuild_cache.dir
+/home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/CMakeFiles/schedule_manager_autogen.dir
