@@ -111,11 +111,41 @@ CMakeFiles/schedule_manager.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/schedule_manager.dir/mainwindow.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/code/ComputerProgrammingHomework/schedule_manager/mainwindow.cpp -o CMakeFiles/schedule_manager.dir/mainwindow.cpp.s
 
+CMakeFiles/schedule_manager.dir/User.cpp.o: CMakeFiles/schedule_manager.dir/flags.make
+CMakeFiles/schedule_manager.dir/User.cpp.o: /home/code/ComputerProgrammingHomework/schedule_manager/User.cpp
+CMakeFiles/schedule_manager.dir/User.cpp.o: CMakeFiles/schedule_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/schedule_manager.dir/User.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/schedule_manager.dir/User.cpp.o -MF CMakeFiles/schedule_manager.dir/User.cpp.o.d -o CMakeFiles/schedule_manager.dir/User.cpp.o -c /home/code/ComputerProgrammingHomework/schedule_manager/User.cpp
+
+CMakeFiles/schedule_manager.dir/User.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/schedule_manager.dir/User.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/code/ComputerProgrammingHomework/schedule_manager/User.cpp > CMakeFiles/schedule_manager.dir/User.cpp.i
+
+CMakeFiles/schedule_manager.dir/User.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/schedule_manager.dir/User.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/code/ComputerProgrammingHomework/schedule_manager/User.cpp -o CMakeFiles/schedule_manager.dir/User.cpp.s
+
+CMakeFiles/schedule_manager.dir/UserManager.cpp.o: CMakeFiles/schedule_manager.dir/flags.make
+CMakeFiles/schedule_manager.dir/UserManager.cpp.o: /home/code/ComputerProgrammingHomework/schedule_manager/UserManager.cpp
+CMakeFiles/schedule_manager.dir/UserManager.cpp.o: CMakeFiles/schedule_manager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/schedule_manager.dir/UserManager.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/schedule_manager.dir/UserManager.cpp.o -MF CMakeFiles/schedule_manager.dir/UserManager.cpp.o.d -o CMakeFiles/schedule_manager.dir/UserManager.cpp.o -c /home/code/ComputerProgrammingHomework/schedule_manager/UserManager.cpp
+
+CMakeFiles/schedule_manager.dir/UserManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/schedule_manager.dir/UserManager.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/code/ComputerProgrammingHomework/schedule_manager/UserManager.cpp > CMakeFiles/schedule_manager.dir/UserManager.cpp.i
+
+CMakeFiles/schedule_manager.dir/UserManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/schedule_manager.dir/UserManager.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/code/ComputerProgrammingHomework/schedule_manager/UserManager.cpp -o CMakeFiles/schedule_manager.dir/UserManager.cpp.s
+
 # Object files for target schedule_manager
 schedule_manager_OBJECTS = \
 "CMakeFiles/schedule_manager.dir/schedule_manager_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/schedule_manager.dir/main.cpp.o" \
-"CMakeFiles/schedule_manager.dir/mainwindow.cpp.o"
+"CMakeFiles/schedule_manager.dir/mainwindow.cpp.o" \
+"CMakeFiles/schedule_manager.dir/User.cpp.o" \
+"CMakeFiles/schedule_manager.dir/UserManager.cpp.o"
 
 # External object files for target schedule_manager
 schedule_manager_EXTERNAL_OBJECTS =
@@ -123,12 +153,14 @@ schedule_manager_EXTERNAL_OBJECTS =
 schedule_manager: CMakeFiles/schedule_manager.dir/schedule_manager_autogen/mocs_compilation.cpp.o
 schedule_manager: CMakeFiles/schedule_manager.dir/main.cpp.o
 schedule_manager: CMakeFiles/schedule_manager.dir/mainwindow.cpp.o
+schedule_manager: CMakeFiles/schedule_manager.dir/User.cpp.o
+schedule_manager: CMakeFiles/schedule_manager.dir/UserManager.cpp.o
 schedule_manager: CMakeFiles/schedule_manager.dir/build.make
 schedule_manager: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 schedule_manager: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 schedule_manager: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 schedule_manager: CMakeFiles/schedule_manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable schedule_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable schedule_manager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/schedule_manager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

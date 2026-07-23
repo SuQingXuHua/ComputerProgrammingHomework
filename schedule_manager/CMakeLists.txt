@@ -19,6 +19,10 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        User.cpp
+        User.h
+        UserManager.cpp
+        UserManager.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

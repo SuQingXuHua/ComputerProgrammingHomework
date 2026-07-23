@@ -142,6 +142,54 @@ schedule_manager_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager_autogen.dir/build.make CMakeFiles/schedule_manager_autogen.dir/build
 .PHONY : schedule_manager_autogen/fast
 
+User.o: User.cpp.o
+.PHONY : User.o
+
+# target to build an object file
+User.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/User.cpp.o
+.PHONY : User.cpp.o
+
+User.i: User.cpp.i
+.PHONY : User.i
+
+# target to preprocess a source file
+User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/User.cpp.i
+.PHONY : User.cpp.i
+
+User.s: User.cpp.s
+.PHONY : User.s
+
+# target to generate assembly for a file
+User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/User.cpp.s
+.PHONY : User.cpp.s
+
+UserManager.o: UserManager.cpp.o
+.PHONY : UserManager.o
+
+# target to build an object file
+UserManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/UserManager.cpp.o
+.PHONY : UserManager.cpp.o
+
+UserManager.i: UserManager.cpp.i
+.PHONY : UserManager.i
+
+# target to preprocess a source file
+UserManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/UserManager.cpp.i
+.PHONY : UserManager.cpp.i
+
+UserManager.s: UserManager.cpp.s
+.PHONY : UserManager.s
+
+# target to generate assembly for a file
+UserManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/UserManager.cpp.s
+.PHONY : UserManager.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -224,6 +272,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... schedule_manager_autogen"
 	@echo "... schedule_manager"
+	@echo "... User.o"
+	@echo "... User.i"
+	@echo "... User.s"
+	@echo "... UserManager.o"
+	@echo "... UserManager.i"
+	@echo "... UserManager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
