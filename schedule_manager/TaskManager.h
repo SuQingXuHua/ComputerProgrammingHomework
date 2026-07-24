@@ -28,6 +28,9 @@ private:
 
     QList<Task> tasks;
 
+    void saveTasks();
+    void loadTasks();
+
 };
 
 
