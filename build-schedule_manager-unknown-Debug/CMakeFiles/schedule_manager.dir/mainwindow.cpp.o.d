@@ -277,6 +277,7 @@ CMakeFiles/schedule_manager.dir/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+ /home/code/ComputerProgrammingHomework/schedule_manager/HomeWindow.h \
  /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/include/./ui_mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \

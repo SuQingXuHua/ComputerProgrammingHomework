@@ -142,6 +142,78 @@ schedule_manager_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager_autogen.dir/build.make CMakeFiles/schedule_manager_autogen.dir/build
 .PHONY : schedule_manager_autogen/fast
 
+HomeWindow.o: HomeWindow.cpp.o
+.PHONY : HomeWindow.o
+
+# target to build an object file
+HomeWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/HomeWindow.cpp.o
+.PHONY : HomeWindow.cpp.o
+
+HomeWindow.i: HomeWindow.cpp.i
+.PHONY : HomeWindow.i
+
+# target to preprocess a source file
+HomeWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/HomeWindow.cpp.i
+.PHONY : HomeWindow.cpp.i
+
+HomeWindow.s: HomeWindow.cpp.s
+.PHONY : HomeWindow.s
+
+# target to generate assembly for a file
+HomeWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/HomeWindow.cpp.s
+.PHONY : HomeWindow.cpp.s
+
+Task.o: Task.cpp.o
+.PHONY : Task.o
+
+# target to build an object file
+Task.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/Task.cpp.o
+.PHONY : Task.cpp.o
+
+Task.i: Task.cpp.i
+.PHONY : Task.i
+
+# target to preprocess a source file
+Task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/Task.cpp.i
+.PHONY : Task.cpp.i
+
+Task.s: Task.cpp.s
+.PHONY : Task.s
+
+# target to generate assembly for a file
+Task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/Task.cpp.s
+.PHONY : Task.cpp.s
+
+TaskManager.o: TaskManager.cpp.o
+.PHONY : TaskManager.o
+
+# target to build an object file
+TaskManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/TaskManager.cpp.o
+.PHONY : TaskManager.cpp.o
+
+TaskManager.i: TaskManager.cpp.i
+.PHONY : TaskManager.i
+
+# target to preprocess a source file
+TaskManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/TaskManager.cpp.i
+.PHONY : TaskManager.cpp.i
+
+TaskManager.s: TaskManager.cpp.s
+.PHONY : TaskManager.s
+
+# target to generate assembly for a file
+TaskManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/TaskManager.cpp.s
+.PHONY : TaskManager.cpp.s
+
 User.o: User.cpp.o
 .PHONY : User.o
 
@@ -272,6 +344,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... schedule_manager_autogen"
 	@echo "... schedule_manager"
+	@echo "... HomeWindow.o"
+	@echo "... HomeWindow.i"
+	@echo "... HomeWindow.s"
+	@echo "... Task.o"
+	@echo "... Task.i"
+	@echo "... Task.s"
+	@echo "... TaskManager.o"
+	@echo "... TaskManager.i"
+	@echo "... TaskManager.s"
 	@echo "... User.o"
 	@echo "... User.i"
 	@echo "... User.s"

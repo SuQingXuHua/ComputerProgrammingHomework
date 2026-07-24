@@ -114,8 +114,8 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "\346\227\245\345\270\270\347\256\241\347\220\206\347\263\273\347\273\237-\347\231\273\345\275\225", nullptr));
-        titleLabel->setText(QCoreApplication::translate("MainWindow", "\346\227\245\345\270\270\347\256\241\347\220\206\347\263\273\347\273\237", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "\346\227\245\347\250\213\347\256\241\347\220\206\347\263\273\347\273\237-\347\231\273\345\275\225", nullptr));
+        titleLabel->setText(QCoreApplication::translate("MainWindow", "\346\227\245\347\250\213\347\256\241\347\220\206\347\263\273\347\273\237", nullptr));
         loginButton->setText(QCoreApplication::translate("MainWindow", "\347\231\273\345\275\225", nullptr));
         registerButton->setText(QCoreApplication::translate("MainWindow", "\346\263\250\345\206\214", nullptr));
         usernameLabel->setText(QCoreApplication::translate("MainWindow", "\347\224\250\346\210\267\345\220\215\357\274\232", nullptr));

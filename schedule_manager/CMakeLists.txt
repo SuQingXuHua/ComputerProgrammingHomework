@@ -72,3 +72,4 @@ set_target_properties(schedule_manager PROPERTIES
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(schedule_manager)
 endif()
+

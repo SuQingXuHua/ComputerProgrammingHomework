@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/code/ComputerProgrammingHomework/schedule_manager/HomeWindow.cpp" "CMakeFiles/schedule_manager.dir/HomeWindow.cpp.o" "gcc" "CMakeFiles/schedule_manager.dir/HomeWindow.cpp.o.d"
+  "/home/code/ComputerProgrammingHomework/schedule_manager/Task.cpp" "CMakeFiles/schedule_manager.dir/Task.cpp.o" "gcc" "CMakeFiles/schedule_manager.dir/Task.cpp.o.d"
+  "/home/code/ComputerProgrammingHomework/schedule_manager/TaskManager.cpp" "CMakeFiles/schedule_manager.dir/TaskManager.cpp.o" "gcc" "CMakeFiles/schedule_manager.dir/TaskManager.cpp.o.d"
   "/home/code/ComputerProgrammingHomework/schedule_manager/User.cpp" "CMakeFiles/schedule_manager.dir/User.cpp.o" "gcc" "CMakeFiles/schedule_manager.dir/User.cpp.o.d"
   "/home/code/ComputerProgrammingHomework/schedule_manager/UserManager.cpp" "CMakeFiles/schedule_manager.dir/UserManager.cpp.o" "gcc" "CMakeFiles/schedule_manager.dir/UserManager.cpp.o.d"
   "/home/code/ComputerProgrammingHomework/schedule_manager/main.cpp" "CMakeFiles/schedule_manager.dir/main.cpp.o" "gcc" "CMakeFiles/schedule_manager.dir/main.cpp.o.d"
