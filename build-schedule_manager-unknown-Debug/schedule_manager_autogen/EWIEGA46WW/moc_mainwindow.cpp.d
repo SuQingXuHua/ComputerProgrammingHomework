@@ -1,5 +1,7 @@
 /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/code/ComputerProgrammingHomework/schedule_manager/mainwindow.h \
   /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/moc_predefs.h \
+  /home/code/ComputerProgrammingHomework/schedule_manager/User.h \
+  /home/code/ComputerProgrammingHomework/schedule_manager/UserManager.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
@@ -232,6 +234,8 @@
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
