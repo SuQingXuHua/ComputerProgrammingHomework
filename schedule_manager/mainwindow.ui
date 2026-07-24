@@ -20,7 +20,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>日常管理系统-登录</string>
+   <string>日程管理系统-登录</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="titleLabel">
@@ -43,7 +43,7 @@
      </font>
     </property>
     <property name="text">
-     <string>日常管理系统</string>
+     <string>日程管理系统</string>
     </property>
    </widget>
    <widget class="QPushButton" name="loginButton">

@@ -19,10 +19,21 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+
         User.cpp
         User.h
         UserManager.cpp
         UserManager.h
+
+        HomeWindow.cpp
+        HomeWindow.h
+        HomeWindow.ui
+
+        Task.cpp
+        Task.h
+
+        TaskManager.cpp
+        TaskManager.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

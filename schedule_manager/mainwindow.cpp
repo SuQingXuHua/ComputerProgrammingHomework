@@ -36,11 +36,9 @@ void MainWindow::login()
     if(userManager.login(username,password))
     {
 
-        QMessageBox::information(
-                    this,
-                    "登录",
-                    "登录成功"
-                    );
+        homeWindow = new HomeWindow();
+        homeWindow -> show();
+        this -> hide();
 
     }
     else

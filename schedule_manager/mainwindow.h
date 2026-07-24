@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <UserManager.h>
+#include <HomeWindow.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -19,6 +20,7 @@ public:
 private:
     Ui::MainWindow *ui;
     UserManager userManager;
+    HomeWindow *homeWindow;
 
 private slots:
 
