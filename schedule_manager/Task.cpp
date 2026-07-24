@@ -7,12 +7,15 @@ Task::Task()
 }
 
 
-Task::Task(QString name,QString type,QString startTime,QString remindTime)
+Task::Task(int id,QString name,QString type,QString priority,QString startTime,QString remindTime)
 {
+    this->id = id;
 
     this->name = name;
 
     this->type = type;
+
+    this->priority = priority;
 
     this->startTime = startTime;
 
@@ -43,4 +46,14 @@ QString Task::getStartTime()
 QString Task::getRemindTime()
 {
     return remindTime;
+}
+
+QString Task::getPriority()
+{
+    return priority;
+}
+
+int Task::getID()
+{
+    return id;
 }

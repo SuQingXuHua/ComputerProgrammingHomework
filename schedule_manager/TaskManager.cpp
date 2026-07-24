@@ -4,9 +4,34 @@
 
 
 
-TaskManager::TaskManager()
+TaskManager::TaskManager(QString username)
 {
+
+    this->username=username;
+
     loadTasks();
+
+}
+
+int TaskManager::getNewID()
+{
+
+    int maxID=0;
+
+
+    for(Task task:tasks)
+    {
+
+        if(task.getID()>maxID)
+        {
+            maxID=task.getID();
+        }
+
+    }
+
+
+    return maxID+1;
+
 }
 
 
@@ -21,14 +46,24 @@ void TaskManager::addTask(Task task)
 
 
 
-void TaskManager::delTask(int index)
+void TaskManager::delTask(int id)
 {
 
-    if(index>=0 && index<tasks.size())
+    for(int i=0;i<tasks.size();i++)
     {
-        tasks.removeAt(index);
+
+        if(tasks[i].getID()==id)
+        {
+
+            tasks.removeAt(i);
+
+            saveTasks();
+
+            return;
+
+        }
+
     }
-    saveTasks();
 
 }
 
@@ -41,10 +76,17 @@ QList<Task> TaskManager::showTask()
 
 }
 
+QString TaskManager::getFileName()
+{
+
+    return username + "_tasks.txt";
+
+}
+
 void TaskManager::saveTasks()
 {
 
-    QFile file("data/users.txt");
+    QFile file(getFileName());
 
 
     if(file.open(QIODevice::WriteOnly | QIODevice::Text))
@@ -56,10 +98,12 @@ void TaskManager::saveTasks()
         for(Task task : tasks)
         {
 
-            out << task.getName() << " "
-                << task.getType() << " "
-                << task.getStartTime() << " "
-                << task.getRemindTime() << "\n";
+            out << task.getID()<< " "
+                << task.getName()<< " "
+                << task.getType()<< " "
+                << task.getPriority()<< " "
+                << task.getStartTime()<< " "
+                << task.getRemindTime()<< "\n";
 
         }
 
@@ -73,7 +117,7 @@ void TaskManager::saveTasks()
 void TaskManager::loadTasks()
 {
 
-    QFile file("data/tasks.txt");
+    QFile file(getFileName());
 
 
     if(file.open(QIODevice::ReadOnly | QIODevice::Text))
@@ -85,20 +129,21 @@ void TaskManager::loadTasks()
         while(!in.atEnd())
         {
 
+            int id;
             QString name;
             QString type;
+            QString priority;
             QString start;
             QString remind;
 
-
-            in >> name >> type >> start >> remind;
+            in >> id >> name >> type >> priority >> start >> remind;
 
 
             if(name!="")
             {
 
                 tasks.append(
-                    Task(name,type,start,remind)
+                    Task(id,name,type,priority,start,remind)
                 );
 
             }

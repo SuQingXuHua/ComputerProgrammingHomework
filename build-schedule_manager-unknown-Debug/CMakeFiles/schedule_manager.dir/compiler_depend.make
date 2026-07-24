@@ -804,7 +804,36 @@ CMakeFiles/schedule_manager.dir/TaskManager.cpp.o: /home/code/ComputerProgrammin
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFile \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
 
 CMakeFiles/schedule_manager.dir/User.cpp.o: /home/code/ComputerProgrammingHomework/schedule_manager/User.cpp \
   /usr/include/stdc-predef.h \
@@ -2340,6 +2369,12 @@ schedule_manager_autogen/include/ui_mainwindow.h:
 
 /home/code/ComputerProgrammingHomework/schedule_manager/main.cpp:
 
+/home/code/ComputerProgrammingHomework/schedule_manager/UserManager.h:
+
+/home/code/ComputerProgrammingHomework/schedule_manager/UserManager.cpp:
+
+/home/code/ComputerProgrammingHomework/schedule_manager/User.cpp:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream:
@@ -2347,12 +2382,6 @@ schedule_manager_autogen/include/ui_mainwindow.h:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QFile:
-
-/home/code/ComputerProgrammingHomework/schedule_manager/UserManager.h:
-
-/home/code/ComputerProgrammingHomework/schedule_manager/UserManager.cpp:
-
-/home/code/ComputerProgrammingHomework/schedule_manager/User.cpp:
 
 /home/code/ComputerProgrammingHomework/schedule_manager/TaskManager.cpp:
 

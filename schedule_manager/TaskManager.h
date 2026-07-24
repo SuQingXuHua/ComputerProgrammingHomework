@@ -4,6 +4,7 @@
 
 #include "Task.h"
 #include <QList>
+#include <QString>
 
 
 class TaskManager
@@ -11,13 +12,13 @@ class TaskManager
 
 public:
 
-    TaskManager();
+    TaskManager(QString username);
 
 
     void addTask(Task task);
 
 
-    void delTask(int index);
+    void delTask(int id);
 
 
     QList<Task> showTask();
@@ -28,8 +29,19 @@ private:
 
     QList<Task> tasks;
 
+
+    QString username;
+
+
     void saveTasks();
+
     void loadTasks();
+
+
+    QString getFileName();
+
+
+    int getNewID();
 
 };
 

@@ -12,7 +12,7 @@ public:
     Task();
 
 
-    Task(QString name,QString type,QString startTime,QString remindTime);
+    Task(int id,QString name,QString type,QString priority,QString startTime,QString remindTime);
 
 
     QString getName();
@@ -23,6 +23,9 @@ public:
 
     QString getRemindTime();
 
+    QString getPriority();
+
+    int getID();
 
 private:
 
@@ -33,6 +36,10 @@ private:
     QString startTime;
 
     QString remindTime;
+
+    QString priority;
+
+    int id;
 
 };
 
