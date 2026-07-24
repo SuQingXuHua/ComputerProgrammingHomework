@@ -23,6 +23,8 @@ public:
 
     QList<Task> showTask();
 
+    int getNewID();
+
 
 
 private:
@@ -40,8 +42,6 @@ private:
 
     QString getFileName();
 
-
-    int getNewID();
 
 };
 

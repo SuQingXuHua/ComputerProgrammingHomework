@@ -1,7 +1,7 @@
 CMakeFiles/schedule_manager.dir/schedule_manager_autogen/mocs_compilation.cpp.o: \
  /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/moc_HomeWindow.cpp \
+ /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/moc_AddTaskWindow.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -114,9 +114,9 @@ CMakeFiles/schedule_manager.dir/schedule_manager_autogen/mocs_compilation.cpp.o:
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/../../../schedule_manager/HomeWindow.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+ /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/../../../schedule_manager/AddTaskWindow.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
@@ -267,14 +267,20 @@ CMakeFiles/schedule_manager.dir/schedule_manager_autogen/mocs_compilation.cpp.o:
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+ /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/../../../schedule_manager/TaskManager.h \
+ /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/../../../schedule_manager/Task.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+ /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/moc_HomeWindow.cpp \
+ /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/../../../schedule_manager/HomeWindow.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
  /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/moc_mainwindow.cpp \
  /home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/schedule_manager_autogen/EWIEGA46WW/../../../schedule_manager/mainwindow.h \
  /home/code/ComputerProgrammingHomework/schedule_manager/UserManager.h \
  /home/code/ComputerProgrammingHomework/schedule_manager/User.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
  /home/code/ComputerProgrammingHomework/schedule_manager/HomeWindow.h

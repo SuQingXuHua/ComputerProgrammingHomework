@@ -16,6 +16,7 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -25,8 +26,12 @@ class Ui_HomeWindow
 public:
     QWidget *centralwidget;
     QLabel *welcomeLabel;
-    QPushButton *taskButton;
-    QPushButton *pushButton;
+    QWidget *widget;
+    QVBoxLayout *verticalLayout;
+    QPushButton *addTaskButton;
+    QPushButton *delTaskButton;
+    QPushButton *showTaskButton;
+    QPushButton *logoutButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -43,12 +48,32 @@ public:
         QFont font;
         font.setPointSize(18);
         welcomeLabel->setFont(font);
-        taskButton = new QPushButton(centralwidget);
-        taskButton->setObjectName(QString::fromUtf8("taskButton"));
-        taskButton->setGeometry(QRect(160, 100, 81, 36));
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(160, 170, 81, 36));
+        widget = new QWidget(centralwidget);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(150, 70, 83, 167));
+        verticalLayout = new QVBoxLayout(widget);
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        addTaskButton = new QPushButton(widget);
+        addTaskButton->setObjectName(QString::fromUtf8("addTaskButton"));
+
+        verticalLayout->addWidget(addTaskButton);
+
+        delTaskButton = new QPushButton(widget);
+        delTaskButton->setObjectName(QString::fromUtf8("delTaskButton"));
+
+        verticalLayout->addWidget(delTaskButton);
+
+        showTaskButton = new QPushButton(widget);
+        showTaskButton->setObjectName(QString::fromUtf8("showTaskButton"));
+
+        verticalLayout->addWidget(showTaskButton);
+
+        logoutButton = new QPushButton(widget);
+        logoutButton->setObjectName(QString::fromUtf8("logoutButton"));
+
+        verticalLayout->addWidget(logoutButton);
+
         HomeWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(HomeWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -67,8 +92,10 @@ public:
     {
         HomeWindow->setWindowTitle(QCoreApplication::translate("HomeWindow", "MainWindow", nullptr));
         welcomeLabel->setText(QCoreApplication::translate("HomeWindow", "\346\254\242\350\277\216\344\275\277\347\224\250\346\227\245\347\250\213\347\256\241\347\220\206\347\263\273\347\273\237", nullptr));
-        taskButton->setText(QCoreApplication::translate("HomeWindow", "\344\273\273\345\212\241\347\256\241\347\220\206", nullptr));
-        pushButton->setText(QCoreApplication::translate("HomeWindow", "\351\200\200\345\207\272\347\231\273\345\275\225", nullptr));
+        addTaskButton->setText(QCoreApplication::translate("HomeWindow", "\346\267\273\345\212\240\344\273\273\345\212\241", nullptr));
+        delTaskButton->setText(QCoreApplication::translate("HomeWindow", "\345\210\240\351\231\244\344\273\273\345\212\241", nullptr));
+        showTaskButton->setText(QCoreApplication::translate("HomeWindow", "\346\237\245\347\234\213\344\273\273\345\212\241", nullptr));
+        logoutButton->setText(QCoreApplication::translate("HomeWindow", "\351\200\200\345\207\272\347\231\273\345\275\225", nullptr));
     } // retranslateUi
 
 };

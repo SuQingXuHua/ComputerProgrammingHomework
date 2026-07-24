@@ -74,6 +74,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/code/ComputerProgrammingHomework/schedule_manager/AddTaskWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_AddTaskWindow.cpp",
+			null
+		],
+		[
 			"/home/code/ComputerProgrammingHomework/schedule_manager/HomeWindow.h",
 			"MU",
 			"EWIEGA46WW/moc_HomeWindow.cpp",
@@ -162,6 +168,11 @@
 	"SETTINGS_FILE" : "/home/code/ComputerProgrammingHomework/build-schedule_manager-unknown-Debug/CMakeFiles/schedule_manager_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/code/ComputerProgrammingHomework/schedule_manager/AddTaskWindow.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/code/ComputerProgrammingHomework/schedule_manager/HomeWindow.cpp",
 			"MU",

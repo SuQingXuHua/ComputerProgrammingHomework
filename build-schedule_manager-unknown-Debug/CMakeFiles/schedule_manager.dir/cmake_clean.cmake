@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/schedule_manager_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/schedule_manager_autogen.dir/ParseCache.txt"
   "schedule_manager_autogen"
+  "CMakeFiles/schedule_manager.dir/AddTaskWindow.cpp.o"
+  "CMakeFiles/schedule_manager.dir/AddTaskWindow.cpp.o.d"
   "CMakeFiles/schedule_manager.dir/HomeWindow.cpp.o"
   "CMakeFiles/schedule_manager.dir/HomeWindow.cpp.o.d"
   "CMakeFiles/schedule_manager.dir/Task.cpp.o"

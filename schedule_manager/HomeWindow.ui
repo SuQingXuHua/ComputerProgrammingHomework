@@ -32,31 +32,45 @@
      <string>欢迎使用日程管理系统</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="taskButton">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>100</y>
-      <width>81</width>
-      <height>36</height>
+      <x>150</x>
+      <y>70</y>
+      <width>83</width>
+      <height>167</height>
      </rect>
     </property>
-    <property name="text">
-     <string>任务管理</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>170</y>
-      <width>81</width>
-      <height>36</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>退出登录</string>
-    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="addTaskButton">
+       <property name="text">
+        <string>添加任务</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="delTaskButton">
+       <property name="text">
+        <string>删除任务</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="showTaskButton">
+       <property name="text">
+        <string>查看任务</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="logoutButton">
+       <property name="text">
+        <string>退出登录</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

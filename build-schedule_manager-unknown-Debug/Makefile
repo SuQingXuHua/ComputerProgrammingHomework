@@ -142,6 +142,30 @@ schedule_manager_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager_autogen.dir/build.make CMakeFiles/schedule_manager_autogen.dir/build
 .PHONY : schedule_manager_autogen/fast
 
+AddTaskWindow.o: AddTaskWindow.cpp.o
+.PHONY : AddTaskWindow.o
+
+# target to build an object file
+AddTaskWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/AddTaskWindow.cpp.o
+.PHONY : AddTaskWindow.cpp.o
+
+AddTaskWindow.i: AddTaskWindow.cpp.i
+.PHONY : AddTaskWindow.i
+
+# target to preprocess a source file
+AddTaskWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/AddTaskWindow.cpp.i
+.PHONY : AddTaskWindow.cpp.i
+
+AddTaskWindow.s: AddTaskWindow.cpp.s
+.PHONY : AddTaskWindow.s
+
+# target to generate assembly for a file
+AddTaskWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/schedule_manager.dir/build.make CMakeFiles/schedule_manager.dir/AddTaskWindow.cpp.s
+.PHONY : AddTaskWindow.cpp.s
+
 HomeWindow.o: HomeWindow.cpp.o
 .PHONY : HomeWindow.o
 
@@ -344,6 +368,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... schedule_manager_autogen"
 	@echo "... schedule_manager"
+	@echo "... AddTaskWindow.o"
+	@echo "... AddTaskWindow.i"
+	@echo "... AddTaskWindow.s"
 	@echo "... HomeWindow.o"
 	@echo "... HomeWindow.i"
 	@echo "... HomeWindow.s"
